@@ -1,2 +1,2 @@
-# django-react-app
-django-react-app
+# django-react-chat
+django-react-chat App

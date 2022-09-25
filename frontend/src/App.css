@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.custom_body_1{
+  min-height: 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Zen Kaku Gothic Antique, sans-serif !important;
+}
+
+.custom_main_1{
+  min-height: 70vh;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 !important;
+}
+@media (min-width: 576px) {
+.custom_main_1 {
+  max-width: 540px;
+}
+}
+@media (min-width: 768px) {
+.custom_main_1 {
+  max-width: 720px;
+}
+}
+@media (min-width: 992px) {
+.custom_main_1 {
+  max-width: 960px;
+}
+}
+@media (min-width: 1200px) {
+.custom_main_1 {
+  max-width: 1140px;
+}
+}
+@media (min-width: 1400px) {
+.custom_main_1 {
+  max-width: 1320px;
+}
+}
